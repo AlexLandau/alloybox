@@ -2,7 +2,7 @@
 <p>Player 1 is blue, player 2 is red.</p>
 <p>Hover over a cell to see player 1's average score on a scale from 0 to 100, followed by the average seconds taken (where available).</p>
 <p>Games come from the <a href="http://games.ggp.org/base/">ggp.org Base game repository</a>. Characters after the names of games are hashes of the exact game rules, as seen in the <a href="https://github.com/AlexLandau/gdl-perf">gdl-perf framework</a>.</p><h1>BASE/atariGo_7x7/Ob1a-A</h1>
-<h3>Sample size for each cell is 83. The longest time taken to generate a single match was 142 seconds. The mean time was 22.941 seconds.</h3>
+<h3>Sample size for each cell is 83. The longest time taken to generate a single match was 333 seconds. The mean time was 39.439 seconds.</h3>
 <table style='border-collapse: collapse'>
  <tr><td style='background-color:rgb(255,255,255)'/>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>10</td>
@@ -14,6 +14,7 @@
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>640</td>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>1280</td>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>2560</td>
+  <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>5120</td>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>10</td>
@@ -26,6 +27,7 @@
   <td style='background-color:rgb(255,24,24)' title='4.819 / 13.599'/>
   <td style='background-color:rgb(255,6,6)' title='1.205 / 26.293'/>
   <td style='background-color:rgb(255,6,6)' title='1.205 / 49.34'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 86.48'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>20</td>
@@ -38,6 +40,7 @@
   <td style='background-color:rgb(255,6,6)' title='1.205 / 13.611'/>
   <td style='background-color:rgb(255,12,12)' title='2.41 / 25.129'/>
   <td style='background-color:rgb(255,0,0)' title='0 / 43.956'/>
+  <td style='background-color:rgb(255,6,6)' title='1.205 / 90.261'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>40</td>
@@ -50,6 +53,7 @@
   <td style='background-color:rgb(255,24,24)' title='4.819 / 14.586'/>
   <td style='background-color:rgb(255,6,6)' title='1.205 / 26.956'/>
   <td style='background-color:rgb(255,6,6)' title='1.205 / 45.976'/>
+  <td style='background-color:rgb(255,6,6)' title='1.205 / 93.584'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>80</td>
@@ -62,6 +66,7 @@
   <td style='background-color:rgb(255,55,55)' title='10.843 / 16.242'/>
   <td style='background-color:rgb(255,67,67)' title='13.253 / 27.463'/>
   <td style='background-color:rgb(255,49,49)' title='9.639 / 53.911'/>
+  <td style='background-color:rgb(255,18,18)' title='3.614 / 94.625'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>160</td>
@@ -74,6 +79,7 @@
   <td style='background-color:rgb(255,122,122)' title='24.096 / 18.169'/>
   <td style='background-color:rgb(255,153,153)' title='30.12 / 29.316'/>
   <td style='background-color:rgb(255,79,79)' title='15.663 / 54.484'/>
+  <td style='background-color:rgb(255,30,30)' title='6.024 / 93.597'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>320</td>
@@ -86,6 +92,7 @@
   <td style='background-color:rgb(255,208,208)' title='40.964 / 20.873'/>
   <td style='background-color:rgb(255,122,122)' title='24.096 / 33.57'/>
   <td style='background-color:rgb(255,110,110)' title='21.687 / 55.967'/>
+  <td style='background-color:rgb(255,73,73)' title='14.458 / 102.845'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>640</td>
@@ -98,6 +105,7 @@
   <td style='background-color:rgb(255,251,251)' title='49.398 / 26.911'/>
   <td style='background-color:rgb(255,184,184)' title='36.145 / 40.166'/>
   <td style='background-color:rgb(255,153,153)' title='30.12 / 61.702'/>
+  <td style='background-color:rgb(255,92,92)' title='18.072 / 114.544'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>1280</td>
@@ -110,6 +118,7 @@
   <td style='background-color:rgb(221,221,255)' title='56.627 / 39.695'/>
   <td style='background-color:rgb(255,239,239)' title='46.988 / 52.543'/>
   <td style='background-color:rgb(255,208,208)' title='40.964 / 71.651'/>
+  <td style='background-color:rgb(255,172,172)' title='33.735 / 123.681'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>2560</td>
@@ -122,6 +131,20 @@
   <td style='background-color:rgb(227,227,255)' title='55.422 / 61.648'/>
   <td style='background-color:rgb(196,196,255)' title='61.446 / 72.95'/>
   <td style='background-color:rgb(255,221,221)' title='43.373 / 85.052'/>
+  <td style='background-color:rgb(255,251,251)' title='49.398 / 154.958'/>
+ </tr>
+ <tr>
+  <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>5120</td>
+  <td style='background-color:rgb(0,0,255)' title='100 / 91.446'/>
+  <td style='background-color:rgb(12,12,255)' title='97.59 / 95.791'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 91.359'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 94.837'/>
+  <td style='background-color:rgb(30,30,255)' title='93.976 / 106.277'/>
+  <td style='background-color:rgb(79,79,255)' title='84.337 / 107.071'/>
+  <td style='background-color:rgb(79,79,255)' title='84.337 / 108.808'/>
+  <td style='background-color:rgb(135,135,255)' title='73.494 / 122.51'/>
+  <td style='background-color:rgb(221,221,255)' title='56.627 / 139.725'/>
+  <td style='background-color:rgb(255,208,208)' title='40.964 / 173.28'/>
  </tr>
 </table>
 <h1>BASE/biddingTicTacToe/8mESVw</h1>
@@ -3293,7 +3316,7 @@
  </tr>
 </table>
 <h1>BASE/hex/T1MK8g</h1>
-<h3>Sample size for each cell is 83. The longest time taken to generate a single match was 3091 seconds. The mean time was 386.594 seconds.</h3>
+<h3>Sample size for each cell is between 83 and 84. The longest time taken to generate a single match was 3091 seconds. The mean time was 386.083 seconds.</h3>
 <table style='border-collapse: collapse'>
  <tr><td style='background-color:rgb(255,255,255)'/>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>10</td>
@@ -3310,150 +3333,150 @@
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>10</td>
-  <td style='background-color:rgb(255,202,202)' title='39.759 / 4.753'/>
-  <td style='background-color:rgb(255,190,190)' title='37.349 / 6.828'/>
-  <td style='background-color:rgb(255,110,110)' title='21.687 / 10.805'/>
-  <td style='background-color:rgb(255,12,12)' title='2.41 / 18.393'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 32.523'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 56.45'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 102.111'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 179.149'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 300.799'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 519.571'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 895.273'/>
+  <td style='background-color:rgb(255,200,200)' title='39.286 / 4.767'/>
+  <td style='background-color:rgb(255,188,188)' title='36.905 / 6.847'/>
+  <td style='background-color:rgb(255,109,109)' title='21.429 / 10.825'/>
+  <td style='background-color:rgb(255,12,12)' title='2.381 / 18.43'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 32.609'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 56.554'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 102.227'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 178.81'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 301.623'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 519.312'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 895.125'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>20</td>
-  <td style='background-color:rgb(153,153,255)' title='69.88 / 6.632'/>
-  <td style='background-color:rgb(255,215,215)' title='42.169 / 8.582'/>
-  <td style='background-color:rgb(255,129,129)' title='25.301 / 12.471'/>
-  <td style='background-color:rgb(255,6,6)' title='1.205 / 20.229'/>
-  <td style='background-color:rgb(255,12,12)' title='2.41 / 33.678'/>
-  <td style='background-color:rgb(255,6,6)' title='1.205 / 59.953'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 104.54'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 182.099'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 308.209'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 509.38'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 916.275'/>
+  <td style='background-color:rgb(151,151,255)' title='70.238 / 6.647'/>
+  <td style='background-color:rgb(255,218,218)' title='42.857 / 8.591'/>
+  <td style='background-color:rgb(255,127,127)' title='25 / 12.469'/>
+  <td style='background-color:rgb(255,6,6)' title='1.19 / 20.234'/>
+  <td style='background-color:rgb(255,12,12)' title='2.381 / 33.737'/>
+  <td style='background-color:rgb(255,6,6)' title='1.19 / 60.092'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 104.53'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 182.213'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 307.6'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 510.397'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 918.107'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>40</td>
-  <td style='background-color:rgb(73,73,255)' title='85.542 / 10.618'/>
-  <td style='background-color:rgb(141,141,255)' title='72.289 / 12.534'/>
-  <td style='background-color:rgb(239,239,255)' title='53.012 / 16.237'/>
-  <td style='background-color:rgb(255,73,73)' title='14.458 / 23.671'/>
-  <td style='background-color:rgb(255,24,24)' title='4.819 / 37.638'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 62.337'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 105.402'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 183.832'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 308.825'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 515.411'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 922.223'/>
+  <td style='background-color:rgb(72,72,255)' title='85.714 / 10.639'/>
+  <td style='background-color:rgb(139,139,255)' title='72.619 / 12.549'/>
+  <td style='background-color:rgb(242,242,255)' title='52.381 / 16.238'/>
+  <td style='background-color:rgb(255,72,72)' title='14.286 / 23.701'/>
+  <td style='background-color:rgb(255,24,24)' title='4.762 / 37.725'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 62.326'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 105.443'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 184.036'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 309.135'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 517.362'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 923.626'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>80</td>
-  <td style='background-color:rgb(24,24,255)' title='95.181 / 18.136'/>
-  <td style='background-color:rgb(55,55,255)' title='89.157 / 20.048'/>
-  <td style='background-color:rgb(86,86,255)' title='83.133 / 23.709'/>
-  <td style='background-color:rgb(255,239,239)' title='46.988 / 30.928'/>
-  <td style='background-color:rgb(255,73,73)' title='14.458 / 44.74'/>
-  <td style='background-color:rgb(255,30,30)' title='6.024 / 68.122'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 110.479'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 181.072'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 320.16'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 514.103'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 934.416'/>
+  <td style='background-color:rgb(24,24,255)' title='95.238 / 18.143'/>
+  <td style='background-color:rgb(60,60,255)' title='88.095 / 20.039'/>
+  <td style='background-color:rgb(85,85,255)' title='83.333 / 23.749'/>
+  <td style='background-color:rgb(255,236,236)' title='46.429 / 30.947'/>
+  <td style='background-color:rgb(255,72,72)' title='14.286 / 44.75'/>
+  <td style='background-color:rgb(255,30,30)' title='5.952 / 68.285'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 110.602'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 181.071'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 319.55'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 514.488'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 934.931'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>160</td>
-  <td style='background-color:rgb(18,18,255)' title='96.386 / 32.465'/>
-  <td style='background-color:rgb(12,12,255)' title='97.59 / 33.8'/>
-  <td style='background-color:rgb(6,6,255)' title='98.795 / 37.609'/>
-  <td style='background-color:rgb(67,67,255)' title='86.747 / 45.258'/>
-  <td style='background-color:rgb(233,233,255)' title='54.217 / 58.271'/>
-  <td style='background-color:rgb(255,79,79)' title='15.663 / 81.867'/>
-  <td style='background-color:rgb(255,6,6)' title='1.205 / 121.782'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 196.844'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 324.635'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 552.693'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 943.073'/>
+  <td style='background-color:rgb(18,18,255)' title='96.429 / 32.423'/>
+  <td style='background-color:rgb(12,12,255)' title='97.619 / 33.847'/>
+  <td style='background-color:rgb(6,6,255)' title='98.81 / 37.644'/>
+  <td style='background-color:rgb(66,66,255)' title='86.905 / 45.279'/>
+  <td style='background-color:rgb(236,236,255)' title='53.571 / 58.336'/>
+  <td style='background-color:rgb(255,78,78)' title='15.476 / 81.727'/>
+  <td style='background-color:rgb(255,6,6)' title='1.19 / 121.734'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 197.256'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 324.587'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 551.612'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 945.386'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>320</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 57.788'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 58.984'/>
-  <td style='background-color:rgb(6,6,255)' title='98.795 / 62.46'/>
-  <td style='background-color:rgb(18,18,255)' title='96.386 / 68.651'/>
-  <td style='background-color:rgb(79,79,255)' title='84.337 / 81.26'/>
-  <td style='background-color:rgb(215,215,255)' title='57.831 / 107.197'/>
-  <td style='background-color:rgb(255,61,61)' title='12.048 / 148.048'/>
-  <td style='background-color:rgb(255,18,18)' title='3.614 / 215.989'/>
-  <td style='background-color:rgb(255,6,6)' title='1.205 / 337.051'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 554.745'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 924.115'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 57.872'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 58.948'/>
+  <td style='background-color:rgb(6,6,255)' title='98.81 / 62.523'/>
+  <td style='background-color:rgb(18,18,255)' title='96.429 / 68.759'/>
+  <td style='background-color:rgb(78,78,255)' title='84.524 / 81.333'/>
+  <td style='background-color:rgb(218,218,255)' title='57.143 / 107.216'/>
+  <td style='background-color:rgb(255,60,60)' title='11.905 / 148.296'/>
+  <td style='background-color:rgb(255,18,18)' title='3.571 / 216.008'/>
+  <td style='background-color:rgb(255,6,6)' title='1.19 / 336.828'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 553.209'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 923.139'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>640</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 101.999'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 103.572'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 107.468'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 112.045'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 125.159'/>
-  <td style='background-color:rgb(67,67,255)' title='86.747 / 147.656'/>
-  <td style='background-color:rgb(227,227,255)' title='55.422 / 190.773'/>
-  <td style='background-color:rgb(255,73,73)' title='14.458 / 264.718'/>
-  <td style='background-color:rgb(255,12,12)' title='2.41 / 392.409'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 588.064'/>
-  <td style='background-color:rgb(255,0,0)' title='0 / 993.713'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 101.949'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 103.506'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 107.695'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 111.802'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 125.518'/>
+  <td style='background-color:rgb(66,66,255)' title='86.905 / 148.009'/>
+  <td style='background-color:rgb(224,224,255)' title='55.952 / 191.205'/>
+  <td style='background-color:rgb(255,72,72)' title='14.286 / 264.708'/>
+  <td style='background-color:rgb(255,12,12)' title='2.381 / 392.477'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 587.733'/>
+  <td style='background-color:rgb(255,0,0)' title='0 / 992.07'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>1280</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 181.702'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 182.218'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 181.449'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 185.579'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 196.249'/>
-  <td style='background-color:rgb(12,12,255)' title='97.59 / 221.207'/>
-  <td style='background-color:rgb(67,67,255)' title='86.747 / 268.447'/>
-  <td style='background-color:rgb(239,239,255)' title='53.012 / 338.993'/>
-  <td style='background-color:rgb(255,92,92)' title='18.072 / 467.938'/>
-  <td style='background-color:rgb(255,18,18)' title='3.614 / 689.864'/>
-  <td style='background-color:rgb(255,6,6)' title='1.205 / 1,077.715'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 181.455'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 182.486'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 181.554'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 186.23'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 196.66'/>
+  <td style='background-color:rgb(12,12,255)' title='97.619 / 221.385'/>
+  <td style='background-color:rgb(66,66,255)' title='86.905 / 268.589'/>
+  <td style='background-color:rgb(242,242,255)' title='52.381 / 339.456'/>
+  <td style='background-color:rgb(255,91,91)' title='17.857 / 468.026'/>
+  <td style='background-color:rgb(255,18,18)' title='3.571 / 690.635'/>
+  <td style='background-color:rgb(255,6,6)' title='1.19 / 1,077.72'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>2560</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 312.413'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 313.177'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 314.454'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 319.027'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 324.523'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 342.339'/>
-  <td style='background-color:rgb(36,36,255)' title='92.771 / 379.071'/>
-  <td style='background-color:rgb(92,92,255)' title='81.928 / 484.562'/>
-  <td style='background-color:rgb(245,245,255)' title='51.807 / 631.218'/>
-  <td style='background-color:rgb(255,178,178)' title='34.94 / 866.717'/>
-  <td style='background-color:rgb(255,55,55)' title='10.843 / 1,259.834'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 313.68'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 312.529'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 315.538'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 319.785'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 323.585'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 342.511'/>
+  <td style='background-color:rgb(36,36,255)' title='92.857 / 378.178'/>
+  <td style='background-color:rgb(91,91,255)' title='82.143 / 485.029'/>
+  <td style='background-color:rgb(242,242,255)' title='52.381 / 631.247'/>
+  <td style='background-color:rgb(255,176,176)' title='34.524 / 866.94'/>
+  <td style='background-color:rgb(255,54,54)' title='10.714 / 1,259.277'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>5120</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 523.866'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 508.973'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 523.63'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 522.855'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 534.593'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 552.316'/>
-  <td style='background-color:rgb(6,6,255)' title='98.795 / 598.318'/>
-  <td style='background-color:rgb(24,24,255)' title='95.181 / 662.898'/>
-  <td style='background-color:rgb(104,104,255)' title='79.518 / 828.191'/>
-  <td style='background-color:rgb(255,208,208)' title='40.964 / 1,158.96'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 524.206'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 509.87'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 522.904'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 523.327'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 535.154'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 555.712'/>
+  <td style='background-color:rgb(6,6,255)' title='98.81 / 600.212'/>
+  <td style='background-color:rgb(24,24,255)' title='95.238 / 661.298'/>
+  <td style='background-color:rgb(103,103,255)' title='79.762 / 831.625'/>
+  <td style='background-color:rgb(255,206,206)' title='40.476 / 1,158.847'/>
   <td style='background-color:rgb(255,208,208)' title='40.964 / 1,605.316'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>10240</td>
-  <td style='background-color:rgb(0,0,255)' title='100 / 895.033'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 888.599'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 924.9'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 900.364'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 897.379'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 890.375'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 925.068'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 901.399'/>
   <td style='background-color:rgb(0,0,255)' title='100 / 910.061'/>
   <td style='background-color:rgb(0,0,255)' title='100 / 934.281'/>
   <td style='background-color:rgb(0,0,255)' title='100 / 953.333'/>
@@ -4256,7 +4279,7 @@
  </tr>
 </table>
 <h1>BASE/pentagoSuicide/SBgNhw</h1>
-<h3>Sample size for each cell is between 83 and 84. The longest time taken to generate a single match was 1241 seconds. The mean time was 170.147 seconds.</h3>
+<h3>Sample size for each cell is 84. The longest time taken to generate a single match was 1241 seconds. The mean time was 178.058 seconds.</h3>
 <table style='border-collapse: collapse'>
  <tr><td style='background-color:rgb(255,255,255)'/>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>10</td>
@@ -4435,22 +4458,22 @@
   <td style='background-color:rgb(85,85,255)' title='83.333 / 358.958'/>
   <td style='background-color:rgb(130,130,255)' title='74.405 / 432.522'/>
   <td style='background-color:rgb(200,200,255)' title='60.714 / 583.031'/>
-  <td style='background-color:rgb(255,255,255)' title='50 / 882.904'/>
+  <td style='background-color:rgb(255,255,255)' title='50 / 866.902'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>20480</td>
   <td style='background-color:rgb(0,0,255)' title='100 / 529.715'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 501.026'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 543.956'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 562.458'/>
-  <td style='background-color:rgb(0,0,255)' title='100 / 546.816'/>
-  <td style='background-color:rgb(3,3,255)' title='99.398 / 582.055'/>
-  <td style='background-color:rgb(3,3,255)' title='99.398 / 590.562'/>
-  <td style='background-color:rgb(24,24,255)' title='95.181 / 616.886'/>
-  <td style='background-color:rgb(43,43,255)' title='91.566 / 647.545'/>
-  <td style='background-color:rgb(98,98,255)' title='80.723 / 715.275'/>
-  <td style='background-color:rgb(116,116,255)' title='77.108 / 877.373'/>
-  <td style='background-color:rgb(196,196,255)' title='61.446 / 1,169.699'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 497.539'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 538.85'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 549.268'/>
+  <td style='background-color:rgb(0,0,255)' title='100 / 544.62'/>
+  <td style='background-color:rgb(3,3,255)' title='99.405 / 574.277'/>
+  <td style='background-color:rgb(3,3,255)' title='99.405 / 582.876'/>
+  <td style='background-color:rgb(24,24,255)' title='95.238 / 609.615'/>
+  <td style='background-color:rgb(42,42,255)' title='91.667 / 641.146'/>
+  <td style='background-color:rgb(97,97,255)' title='80.952 / 699.517'/>
+  <td style='background-color:rgb(115,115,255)' title='77.381 / 866.591'/>
+  <td style='background-color:rgb(200,200,255)' title='60.714 / 1,143.431'/>
  </tr>
 </table>
 <h1>BASE/quarto/EwBMVQ</h1>
@@ -5246,7 +5269,7 @@
  </tr>
 </table>
 <h1>BASE/shmup/ssTNlg</h1>
-<h3>Sample size for each cell is 84. The longest time taken to generate a single match was 409 seconds. The mean time was 14.23 seconds.</h3>
+<h3>Sample size for each cell is 84. The longest time taken to generate a single match was 409 seconds. The mean time was 30.815 seconds.</h3>
 <table style='border-collapse: collapse'>
  <tr><td style='background-color:rgb(255,255,255)'/>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>10</td>
@@ -5261,6 +5284,7 @@
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>5120</td>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>10240</td>
   <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>20480</td>
+  <td style='background-color:rgb(255,0,0); color:rgb(255,255,255)'>40960</td>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>10</td>
@@ -5276,6 +5300,7 @@
   <td style='background-color:rgb(255,9,9)' title='1.786 / 6.982'/>
   <td style='background-color:rgb(255,0,0)' title='0 / 14.711'/>
   <td style='background-color:rgb(255,15,15)' title='2.976 / 31.715'/>
+  <td style='background-color:rgb(255,3,3)' title='0.595 / 75.313'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>20</td>
@@ -5291,6 +5316,7 @@
   <td style='background-color:rgb(255,15,15)' title='2.976 / 8.712'/>
   <td style='background-color:rgb(255,9,9)' title='1.786 / 18.066'/>
   <td style='background-color:rgb(255,12,12)' title='2.381 / 35.904'/>
+  <td style='background-color:rgb(255,21,21)' title='4.167 / 88.891'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>40</td>
@@ -5306,6 +5332,7 @@
   <td style='background-color:rgb(255,69,69)' title='13.69 / 9.282'/>
   <td style='background-color:rgb(255,30,30)' title='5.952 / 20.561'/>
   <td style='background-color:rgb(255,18,18)' title='3.571 / 41.208'/>
+  <td style='background-color:rgb(255,33,33)' title='6.548 / 92.962'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>80</td>
@@ -5321,6 +5348,7 @@
   <td style='background-color:rgb(255,66,66)' title='13.095 / 9.747'/>
   <td style='background-color:rgb(255,48,48)' title='9.524 / 19.016'/>
   <td style='background-color:rgb(255,48,48)' title='9.524 / 40.496'/>
+  <td style='background-color:rgb(255,48,48)' title='9.524 / 102.084'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>160</td>
@@ -5336,6 +5364,7 @@
   <td style='background-color:rgb(255,139,139)' title='27.381 / 10.765'/>
   <td style='background-color:rgb(255,94,94)' title='18.452 / 20.53'/>
   <td style='background-color:rgb(255,33,33)' title='6.548 / 45.976'/>
+  <td style='background-color:rgb(255,63,63)' title='12.5 / 106.246'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>320</td>
@@ -5351,6 +5380,7 @@
   <td style='background-color:rgb(255,170,170)' title='33.333 / 12.19'/>
   <td style='background-color:rgb(255,121,121)' title='23.81 / 23.391'/>
   <td style='background-color:rgb(255,85,85)' title='16.667 / 45.026'/>
+  <td style='background-color:rgb(255,88,88)' title='17.262 / 113.669'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>640</td>
@@ -5366,6 +5396,7 @@
   <td style='background-color:rgb(255,179,179)' title='35.119 / 11.943'/>
   <td style='background-color:rgb(255,130,130)' title='25.595 / 23.298'/>
   <td style='background-color:rgb(255,106,106)' title='20.833 / 50.054'/>
+  <td style='background-color:rgb(255,81,81)' title='16.071 / 119.842'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>1280</td>
@@ -5381,6 +5412,7 @@
   <td style='background-color:rgb(255,188,188)' title='36.905 / 14.264'/>
   <td style='background-color:rgb(255,157,157)' title='30.952 / 25.196'/>
   <td style='background-color:rgb(255,148,148)' title='29.167 / 49.461'/>
+  <td style='background-color:rgb(255,160,160)' title='31.548 / 118.865'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>2560</td>
@@ -5396,6 +5428,7 @@
   <td style='background-color:rgb(255,239,239)' title='47.024 / 16.404'/>
   <td style='background-color:rgb(255,191,191)' title='37.5 / 28.25'/>
   <td style='background-color:rgb(255,157,157)' title='30.952 / 49.949'/>
+  <td style='background-color:rgb(255,157,157)' title='30.952 / 136.177'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>5120</td>
@@ -5411,6 +5444,7 @@
   <td style='background-color:rgb(255,224,224)' title='44.048 / 22.959'/>
   <td style='background-color:rgb(255,203,203)' title='39.881 / 36.87'/>
   <td style='background-color:rgb(255,182,182)' title='35.714 / 63.602'/>
+  <td style='background-color:rgb(255,160,160)' title='31.548 / 139.955'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>10240</td>
@@ -5426,6 +5460,7 @@
   <td style='background-color:rgb(206,206,255)' title='59.524 / 36.894'/>
   <td style='background-color:rgb(251,251,255)' title='50.595 / 43.717'/>
   <td style='background-color:rgb(255,224,224)' title='44.048 / 64.719'/>
+  <td style='background-color:rgb(255,224,224)' title='44.048 / 160.627'/>
  </tr>
  <tr>
   <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>20480</td>
@@ -5441,6 +5476,23 @@
   <td style='background-color:rgb(179,179,255)' title='64.881 / 63.065'/>
   <td style='background-color:rgb(227,227,255)' title='55.357 / 72.486'/>
   <td style='background-color:rgb(251,251,255)' title='50.595 / 84.123'/>
+  <td style='background-color:rgb(255,245,245)' title='48.214 / 192.12'/>
+ </tr>
+ <tr>
+  <td style='background-color:rgb(0,0,255); color:rgb(255,255,255)'>40960</td>
+  <td style='background-color:rgb(9,9,255)' title='98.214 / 82.639'/>
+  <td style='background-color:rgb(6,6,255)' title='98.81 / 101.501'/>
+  <td style='background-color:rgb(12,12,255)' title='97.619 / 104.734'/>
+  <td style='background-color:rgb(33,33,255)' title='93.452 / 110.165'/>
+  <td style='background-color:rgb(60,60,255)' title='88.095 / 110.517'/>
+  <td style='background-color:rgb(78,78,255)' title='84.524 / 118.165'/>
+  <td style='background-color:rgb(81,81,255)' title='83.929 / 117.443'/>
+  <td style='background-color:rgb(112,112,255)' title='77.976 / 127.38'/>
+  <td style='background-color:rgb(145,145,255)' title='71.429 / 128.124'/>
+  <td style='background-color:rgb(148,148,255)' title='70.833 / 143.014'/>
+  <td style='background-color:rgb(203,203,255)' title='60.119 / 146.971'/>
+  <td style='background-color:rgb(227,227,255)' title='55.357 / 179.256'/>
+  <td style='background-color:rgb(255,236,236)' title='46.429 / 242.062'/>
  </tr>
 </table>
 <h1>BASE/speedChess/bPnisA</h1>
