@@ -13,6 +13,9 @@ cp -r ../gdl-perf/analyses docs/
 cp ../alloy/Alloy/abfResultCharts.html docs/
 # cp -r ../alloy/Alloy/uctViz docs/
 
+(cd ../game-ai-research && ./gradlew writeReports)
+cp -r ../game-ai-research/reports docs/
+
 git add docs/
 git commit -m "Updating website"
 git push origin HEAD:master
