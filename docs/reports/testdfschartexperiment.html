@@ -5,10 +5,16 @@ function setData(componentId, countsArray) {
     const cellId = componentId + "-" + i;
     document.getElementById(cellId).innerHTML = "" + countsArray[i];
   }
-  document.getElementById(componentId).innerHTML = text;
 }
-function unsetData(componentId) {
-  document.getElementById(componentId).innerHTML = '';
+function showFirstMoves(moveTablesDivId) {
+  document.getElementById(moveTablesDivId).style.display = '';
+  document.getElementById(moveTablesDivId + '-show').style.display = 'none';
+  document.getElementById(moveTablesDivId + '-hide').style.display = '';
+}
+function hideFirstMoves(moveTablesDivId) {
+  document.getElementById(moveTablesDivId).style.display = 'none';
+  document.getElementById(moveTablesDivId + '-show').style.display = '';
+  document.getElementById(moveTablesDivId + '-hide').style.display = 'none';
 }
 </script>
 </head><body>
