@@ -1,4 +1,17 @@
-<html><head><title>UCT Charts</title><style>.outcomes-table td {width:36px;height:36px;text-align:center;}</style></head><body>
+<!DOCTYPE html><html><head><meta charset="UTF-8"/><title>UCT Charts</title><style>.outcomes-table td {width:36px;height:36px;text-align:center;}.raw-outcomes-data td,th {border: 2px solid black;}.raw-outcomes-data {border-collapse: collapse; border: 2px solid black;}</style>
+<script>
+function setData(componentId, countsArray) {
+  for (let i = 0; i < countsArray.length; i++) {
+    const cellId = componentId + "-" + i;
+    document.getElementById(cellId).innerHTML = "" + countsArray[i];
+  }
+  document.getElementById(componentId).innerHTML = text;
+}
+function unsetData(componentId) {
+  document.getElementById(componentId).innerHTML = '';
+}
+</script>
+</head><body>
 <p>Player 1 is blue, player 2 is red.</p>
 <p>Hover over a cell to see player 1's average score on a scale from 0 to 1, followed by the average seconds taken per match.</p>
 </body></html>
