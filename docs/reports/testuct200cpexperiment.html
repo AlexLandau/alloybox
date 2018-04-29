@@ -1,22 +1,26 @@
 <html><head><title>TestUCT200CpExperiment</title><style>.sig { color: black; } .nonsig { color: gray; }</style></head>
 <body><h1>Overall results</h1>
-<p>Sample size for each cell is 5000 matches.</p>
+<p>Sample size for each cell is between 3096 and 5000 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.624</td>
+  <td>0.611</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.567</td>
+  <td>0.56</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.536</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.447</td>
+  <td>0.442</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.362</td>
+  <td>0.363</td>
  </tr>
 </table>
 <table>
@@ -25,11 +29,13 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
   <td style='background-color:rgb(248,248,255)' class="sig" title="count: 5000; p: 1.1821676175624022E-8">0.54</td>
+  <td style='background-color:rgb(247,247,255)' class="sig" title="count: 3096; p: 2.96675815442174E-7">0.546</td>
   <td style='background-color:rgb(234,234,255)' class="sig" title="count: 5000; p: 3.6320906963031333E-81">0.634</td>
   <td style='background-color:rgb(224,224,255)' class="sig" title="count: 5000; p: 9.6451943390447E-177">0.698</td>
  </tr>
@@ -37,34 +43,49 @@
   <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,248,248)' class="sig" title="count: 5000; p: 1.1821676175624022E-8">0.46</td>
   <td>N/A</td>
+  <td style='background-color:rgb(251,251,255)' class="sig" title="count: 3096; p: 0.005333204787132892">0.525</td>
   <td style='background-color:rgb(240,240,255)' class="sig" title="count: 5000; p: 8.368791186489177E-41">0.595</td>
   <td style='background-color:rgb(232,232,255)' class="sig" title="count: 5000; p: 9.8527806569158E-97">0.647</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,247,247)' class="sig" title="count: 3096; p: 2.96675815442174E-7">0.454</td>
+  <td style='background-color:rgb(255,251,251)' class="sig" title="count: 3096; p: 0.005333204787132892">0.475</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(241,241,255)' class="sig" title="count: 3096; p: 1.5671688440775862E-21">0.586</td>
+  <td style='background-color:rgb(234,234,255)' class="sig" title="count: 3096; p: 6.732429199433015E-49">0.632</td>
+ </tr>
+ <tr>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,234,234)' class="sig" title="count: 5000; p: 2.0918496123636156E-81">0.366</td>
   <td style='background-color:rgb(255,240,240)' class="sig" title="count: 5000; p: 5.698647718619737E-41">0.406</td>
+  <td style='background-color:rgb(255,241,241)' class="sig" title="count: 3096; p: 1.5671688440775862E-21">0.414</td>
   <td>N/A</td>
   <td style='background-color:rgb(244,244,255)' class="sig" title="count: 5000; p: 1.3082672217901327E-23">0.571</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,224,224)' class="sig" title="count: 5000; p: 4.17288549820341E-177">0.302</td>
   <td style='background-color:rgb(255,232,232)' class="sig" title="count: 5000; p: 5.377741174400664E-97">0.353</td>
+  <td style='background-color:rgb(255,234,234)' class="sig" title="count: 3096; p: 3.919704829464494E-49">0.368</td>
   <td style='background-color:rgb(255,244,244)' class="sig" title="count: 5000; p: 1.3082672217901327E-23">0.429</td>
   <td>N/A</td>
  </tr>
 </table>
 <h2>Game: Tic-tac-toe</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.543</td>
+  <td>0.536</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.53</td>
+  <td>0.531</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.505</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
@@ -72,7 +93,7 @@
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.44</td>
+  <td>0.443</td>
  </tr>
 </table>
 <table>
@@ -81,11 +102,13 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
   <td style='background-color:rgb(252,252,255)' class="nonsig" title="count: 500; p: 0.50237434075332">0.517</td>
+  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 310; p: 1.0000000000000002">0.502</td>
   <td style='background-color:rgb(250,250,255)' class="nonsig" title="count: 500; p: 0.16557141780958662">0.532</td>
   <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 4.0041553683977326E-4">0.58</td>
  </tr>
@@ -93,42 +116,57 @@
   <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,252,252)' class="nonsig" title="count: 500; p: 0.44712950152481357">0.483</td>
   <td>N/A</td>
+  <td style='background-color:rgb(249,249,255)' class="nonsig" title="count: 310; p: 0.23292645157878974">0.535</td>
   <td style='background-color:rgb(250,250,255)' class="nonsig" title="count: 500; p: 0.19460830860788064">0.531</td>
   <td style='background-color:rgb(243,243,255)' class="sig" title="count: 500; p: 0.0010756469819866942">0.575</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 310; p: 0.9547197331420502">0.498</td>
+  <td style='background-color:rgb(255,249,249)' class="nonsig" title="count: 310; p: 0.23292645157878974">0.465</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(253,253,255)' class="nonsig" title="count: 310; p: 0.6910114661756159">0.513</td>
+  <td style='background-color:rgb(248,248,255)' class="nonsig" title="count: 310; p: 0.1555227211164461">0.544</td>
+ </tr>
+ <tr>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,250,250)' class="nonsig" title="count: 500; p: 0.16557141780958662">0.468</td>
   <td style='background-color:rgb(255,250,250)' class="nonsig" title="count: 500; p: 0.16557141780958662">0.469</td>
+  <td style='background-color:rgb(255,253,253)' class="nonsig" title="count: 310; p: 0.6910114661756159">0.487</td>
   <td>N/A</td>
   <td style='background-color:rgb(251,251,255)' class="nonsig" title="count: 500; p: 0.263532767000849">0.526</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 4.0041553683977326E-4">0.42</td>
   <td style='background-color:rgb(255,243,243)' class="sig" title="count: 500; p: 7.797673134380694E-4">0.425</td>
+  <td style='background-color:rgb(255,248,248)' class="nonsig" title="count: 310; p: 0.12501633584465427">0.456</td>
   <td style='background-color:rgb(255,251,251)' class="nonsig" title="count: 500; p: 0.263532767000849">0.474</td>
   <td>N/A</td>
  </tr>
 </table>
 <h2>Game: Breakthrough</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.689</td>
+  <td>0.664</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.629</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.577</td>
+  <td>0.544</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.401</td>
+  <td>0.381</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.333</td>
+  <td>0.323</td>
  </tr>
 </table>
 <table>
@@ -137,54 +175,71 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
+  <td style='background-color:rgb(249,249,255)' class="nonsig" title="count: 310; p: 0.1913623905266631">0.539</td>
   <td style='background-color:rgb(243,243,255)' class="sig" title="count: 500; p: 0.0014724575655075131">0.572</td>
   <td style='background-color:rgb(219,219,255)' class="sig" title="count: 500; p: 2.3203276752737328E-26">0.734</td>
   <td style='background-color:rgb(214,214,255)' class="sig" title="count: 500; p: 5.3890196606134206E-33">0.762</td>
  </tr>
  <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,249,249)' class="nonsig" title="count: 310; p: 0.1913623905266631">0.461</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(237,237,255)' class="sig" title="count: 310; p: 8.342570746636889E-5">0.613</td>
+  <td style='background-color:rgb(221,221,255)' class="sig" title="count: 310; p: 1.6402597309804078E-14">0.716</td>
+  <td style='background-color:rgb(220,220,255)' class="sig" title="count: 310; p: 9.331262222393453E-16">0.726</td>
+ </tr>
+ <tr>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,243,243)' class="sig" title="count: 500; p: 0.0014724575655075131">0.428</td>
+  <td style='background-color:rgb(255,237,237)' class="sig" title="count: 310; p: 8.342570746636889E-5">0.387</td>
   <td>N/A</td>
   <td style='background-color:rgb(232,232,255)' class="sig" title="count: 500; p: 1.2027121924642372E-10">0.644</td>
   <td style='background-color:rgb(230,230,255)' class="sig" title="count: 500; p: 1.4427049866797797E-12">0.658</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,219,219)' class="sig" title="count: 500; p: 1.5770888688451246E-26">0.266</td>
+  <td style='background-color:rgb(255,221,221)' class="sig" title="count: 310; p: 1.1405630032475958E-14">0.284</td>
   <td style='background-color:rgb(255,232,232)' class="sig" title="count: 500; p: 1.2027121924642372E-10">0.356</td>
   <td>N/A</td>
   <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 4.0041553683977326E-4">0.58</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,214,214)' class="sig" title="count: 500; p: 5.3890196606134206E-33">0.238</td>
+  <td style='background-color:rgb(255,220,220)' class="sig" title="count: 310; p: 9.331262222393453E-16">0.274</td>
   <td style='background-color:rgb(255,230,230)' class="sig" title="count: 500; p: 1.4427049866797797E-12">0.342</td>
   <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 4.0041553683977326E-4">0.42</td>
   <td>N/A</td>
  </tr>
 </table>
 <h2>Game: Dots and Boxes (5x5)</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.661</td>
+ </tr>
+ <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.636</td>
+  <td>0.598</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.551</td>
+  <td>0.531</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.428</td>
+  <td>0.404</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.385</td>
+  <td>0.356</td>
  </tr>
 </table>
 <table>
@@ -193,30 +248,43 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
-  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(242,242,255)' class="sig" title="count: 310; p: 0.0037029707035981735">0.584</td>
+  <td style='background-color:rgb(244,244,255)' class="sig" title="count: 310; p: 0.019730806306848286">0.568</td>
+  <td style='background-color:rgb(222,222,255)' class="sig" title="count: 310; p: 4.133128799670011E-14">0.713</td>
+  <td style='background-color:rgb(212,212,255)' class="sig" title="count: 310; p: 4.8883674080932405E-24">0.781</td>
+ </tr>
+ <tr>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td style='background-color:rgb(255,242,242)' class="sig" title="count: 310; p: 0.0037029707035981735">0.416</td>
   <td>N/A</td>
   <td style='background-color:rgb(243,243,255)' class="sig" title="count: 500; p: 7.797673134380694E-4">0.576</td>
   <td style='background-color:rgb(232,232,255)' class="sig" title="count: 500; p: 3.5483640118149074E-11">0.648</td>
   <td style='background-color:rgb(226,226,255)' class="sig" title="count: 500; p: 1.2456105540782438E-16">0.684</td>
  </tr>
  <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td style='background-color:rgb(255,244,244)' class="sig" title="count: 310; p: 0.019730806306848286">0.432</td>
   <td style='background-color:rgb(255,243,243)' class="sig" title="count: 500; p: 7.797673134380694E-4">0.424</td>
   <td>N/A</td>
   <td style='background-color:rgb(240,240,255)' class="sig" title="count: 500; p: 3.038953607139337E-5">0.594</td>
   <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 1.2473994975278255E-9">0.636</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td style='background-color:rgb(255,222,222)' class="sig" title="count: 310; p: 4.133128799670011E-14">0.287</td>
   <td style='background-color:rgb(255,232,232)' class="sig" title="count: 500; p: 3.5483640118149074E-11">0.352</td>
   <td style='background-color:rgb(255,240,240)' class="sig" title="count: 500; p: 3.038953607139337E-5">0.406</td>
   <td>N/A</td>
   <td style='background-color:rgb(251,251,255)' class="nonsig" title="count: 500; p: 0.263532767000849">0.526</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td style='background-color:rgb(255,212,212)' class="sig" title="count: 310; p: 4.8883674080932405E-24">0.219</td>
   <td style='background-color:rgb(255,226,226)' class="sig" title="count: 500; p: 1.2456105540782438E-16">0.316</td>
   <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 1.2473994975278255E-9">0.364</td>
   <td style='background-color:rgb(255,251,251)' class="nonsig" title="count: 500; p: 0.263532767000849">0.474</td>
@@ -224,23 +292,27 @@
  </tr>
 </table>
 <h2>Game: Dots and Boxes Misère (5x5)</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.747</td>
+  <td>0.701</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.698</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.633</td>
+  <td>0.589</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.344</td>
+  <td>0.314</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.276</td>
+  <td>0.26</td>
  </tr>
 </table>
 <table>
@@ -249,54 +321,71 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
+  <td style='background-color:rgb(255,252,252)' class="nonsig" title="count: 310; p: 0.5321976230076524">0.481</td>
   <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 2.836204121182165E-4">0.582</td>
   <td style='background-color:rgb(209,209,255)' class="sig" title="count: 500; p: 1.6596294752172966E-43">0.8</td>
   <td style='background-color:rgb(200,200,255)' class="sig" title="count: 500; p: 1.9661974082709556E-63">0.858</td>
  </tr>
  <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(252,252,255)' class="nonsig" title="count: 310; p: 0.5321976230076524">0.519</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(235,235,255)' class="sig" title="count: 310; p: 1.1071899227001447E-5">0.626</td>
+  <td style='background-color:rgb(204,204,255)' class="sig" title="count: 310; p: 2.769628031281637E-33">0.829</td>
+  <td style='background-color:rgb(206,206,255)' class="sig" title="count: 310; p: 2.8439727668128014E-31">0.819</td>
+ </tr>
+ <tr>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 2.4147784134239702E-4">0.418</td>
+  <td style='background-color:rgb(255,235,235)' class="sig" title="count: 310; p: 1.1071899227001447E-5">0.374</td>
   <td>N/A</td>
   <td style='background-color:rgb(220,220,255)' class="sig" title="count: 500; p: 4.705135153301171E-25">0.728</td>
   <td style='background-color:rgb(216,216,255)' class="sig" title="count: 500; p: 5.234272804056903E-31">0.754</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,209,209)' class="sig" title="count: 500; p: 1.6596294752172966E-43">0.2</td>
+  <td style='background-color:rgb(255,204,204)' class="sig" title="count: 310; p: 2.769628031281637E-33">0.171</td>
   <td style='background-color:rgb(255,220,220)' class="sig" title="count: 500; p: 4.705135153301171E-25">0.272</td>
   <td>N/A</td>
   <td style='background-color:rgb(245,245,255)' class="sig" title="count: 500; p: 0.008261421816982495">0.56</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,200,200)' class="sig" title="count: 500; p: 1.9661974082709556E-63">0.142</td>
+  <td style='background-color:rgb(255,206,206)' class="sig" title="count: 310; p: 2.8439727668128014E-31">0.181</td>
   <td style='background-color:rgb(255,216,216)' class="sig" title="count: 500; p: 5.234272804056903E-31">0.246</td>
   <td style='background-color:rgb(255,245,245)' class="sig" title="count: 500; p: 0.008261421816982495">0.44</td>
   <td>N/A</td>
  </tr>
 </table>
 <h2>Game: English Draughts</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.596</td>
+  <td>0.605</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.557</td>
+  <td>0.573</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.464</td>
+  <td>0.485</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.383</td>
+  <td>0.407</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.399</td>
  </tr>
 </table>
 <table>
@@ -305,6 +394,7 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
@@ -312,6 +402,7 @@
   <td style='background-color:rgb(252,252,255)' class="nonsig" title="count: 500; p: 0.50237434075332">0.517</td>
   <td style='background-color:rgb(238,238,255)' class="sig" title="count: 500; p: 1.563483339034335E-6">0.609</td>
   <td style='background-color:rgb(230,230,255)' class="sig" title="count: 500; p: 3.7703529727364374E-13">0.663</td>
+  <td style='background-color:rgb(232,232,255)' class="sig" title="count: 310; p: 1.936407880918615E-7">0.648</td>
  </tr>
  <tr>
   <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
@@ -319,6 +410,7 @@
   <td>N/A</td>
   <td style='background-color:rgb(246,246,255)' class="sig" title="count: 500; p: 0.010727148116076772">0.558</td>
   <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 6.597291117377235E-9">0.631</td>
+  <td style='background-color:rgb(232,232,255)' class="sig" title="count: 310; p: 3.594651292329218E-7">0.647</td>
  </tr>
  <tr>
   <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
@@ -326,6 +418,7 @@
   <td style='background-color:rgb(255,246,246)' class="sig" title="count: 500; p: 0.010727148116076772">0.442</td>
   <td>N/A</td>
   <td style='background-color:rgb(246,246,255)' class="sig" title="count: 500; p: 0.010727148116076772">0.558</td>
+  <td style='background-color:rgb(241,241,255)' class="sig" title="count: 310; p: 0.0025546722979606054">0.587</td>
  </tr>
  <tr>
   <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
@@ -333,134 +426,35 @@
   <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 3.818499871305992E-9">0.369</td>
   <td style='background-color:rgb(255,246,246)' class="sig" title="count: 500; p: 0.010727148116076772">0.442</td>
   <td>N/A</td>
+  <td style='background-color:rgb(251,251,255)' class="nonsig" title="count: 310; p: 0.46035696578581997">0.523</td>
+ </tr>
+ <tr>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,232,232)' class="sig" title="count: 310; p: 1.936407880918615E-7">0.352</td>
+  <td style='background-color:rgb(255,232,232)' class="sig" title="count: 310; p: 1.936407880918615E-7">0.353</td>
+  <td style='background-color:rgb(255,241,241)' class="sig" title="count: 310; p: 0.0025546722979606054">0.413</td>
+  <td style='background-color:rgb(255,251,251)' class="nonsig" title="count: 310; p: 0.46035696578581997">0.477</td>
+  <td>N/A</td>
  </tr>
 </table>
 <h2>Game: Connect Four (8x6)</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.606</td>
+  <td>0.614</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.592</td>
+  <td>0.609</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.464</td>
+  <td>0.485</td>
  </tr>
  <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.338</td>
- </tr>
-</table>
-<table>
- <tr><td></td>
-  <td>(1)</td>
-  <td>(2)</td>
-  <td>(3)</td>
-  <td>(4)</td>
- </tr>
- <tr>
-  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 500; p: 0.9643353544466509">0.498</td>
-  <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 1.2473994975278255E-9">0.637</td>
-  <td style='background-color:rgb(227,227,255)' class="sig" title="count: 500; p: 2.7000856086098575E-16">0.683</td>
- </tr>
- <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 500; p: 0.9643353544466509">0.502</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(240,240,255)' class="sig" title="count: 500; p: 2.0373076156897123E-5">0.596</td>
-  <td style='background-color:rgb(227,227,255)' class="sig" title="count: 500; p: 1.2346202564791723E-15">0.679</td>
- </tr>
- <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 7.039951628898266E-10">0.363</td>
-  <td style='background-color:rgb(255,240,240)' class="sig" title="count: 500; p: 2.0373076156897123E-5">0.404</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(235,235,255)' class="sig" title="count: 500; p: 3.236151842716872E-8">0.625</td>
- </tr>
- <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td style='background-color:rgb(255,227,227)' class="sig" title="count: 500; p: 1.2456105540782438E-16">0.317</td>
-  <td style='background-color:rgb(255,227,227)' class="sig" title="count: 500; p: 5.799935568580447E-16">0.321</td>
-  <td style='background-color:rgb(255,235,235)' class="sig" title="count: 500; p: 1.920539129846863E-8">0.375</td>
-  <td>N/A</td>
- </tr>
-</table>
-<h2>Game: Connect Four (9x6)</h2>
-<p>Sample size for each cell is 500 matches.</p>
-<table>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.616</td>
- </tr>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.599</td>
- </tr>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.444</td>
- </tr>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.341</td>
- </tr>
-</table>
-<table>
- <tr><td></td>
-  <td>(1)</td>
-  <td>(2)</td>
-  <td>(3)</td>
-  <td>(4)</td>
- </tr>
- <tr>
-  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(253,253,255)' class="nonsig" title="count: 500; p: 0.6873633080803796">0.511</td>
-  <td style='background-color:rgb(236,236,255)' class="sig" title="count: 500; p: 8.962859009916701E-8">0.621</td>
-  <td style='background-color:rgb(221,221,255)' class="sig" title="count: 500; p: 1.4785997592265016E-22">0.717</td>
- </tr>
- <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td style='background-color:rgb(255,253,253)' class="nonsig" title="count: 500; p: 0.6228094319797632">0.489</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 6.597291117377235E-9">0.631</td>
-  <td style='background-color:rgb(228,228,255)' class="sig" title="count: 500; p: 2.604487239019712E-15">0.676</td>
- </tr>
- <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td style='background-color:rgb(255,236,236)' class="sig" title="count: 500; p: 5.407956956026203E-8">0.379</td>
-  <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 3.818499871305992E-9">0.369</td>
-  <td>N/A</td>
-  <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.584</td>
- </tr>
- <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td style='background-color:rgb(255,221,221)' class="sig" title="count: 500; p: 5.811881246211385E-23">0.283</td>
-  <td style='background-color:rgb(255,228,228)' class="sig" title="count: 500; p: 2.604487239019712E-15">0.324</td>
-  <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.416</td>
-  <td>N/A</td>
- </tr>
-</table>
-<h2>Game: Pentago</h2>
-<p>Sample size for each cell is 500 matches.</p>
-<table>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.61</td>
- </tr>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.54</td>
- </tr>
- <tr>
-  <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.483</td>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.393</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
@@ -473,30 +467,189 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 500; p: 0.9643353544466509">0.498</td>
+  <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 1.2473994975278255E-9">0.637</td>
+  <td style='background-color:rgb(232,232,255)' class="sig" title="count: 310; p: 1.936407880918615E-7">0.65</td>
+  <td style='background-color:rgb(227,227,255)' class="sig" title="count: 500; p: 2.7000856086098575E-16">0.683</td>
+ </tr>
+ <tr>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 500; p: 0.9643353544466509">0.502</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(240,240,255)' class="sig" title="count: 500; p: 2.0373076156897123E-5">0.596</td>
+  <td style='background-color:rgb(226,226,255)' class="sig" title="count: 310; p: 3.87919955983992E-11">0.687</td>
+  <td style='background-color:rgb(227,227,255)' class="sig" title="count: 500; p: 1.2346202564791723E-15">0.679</td>
+ </tr>
+ <tr>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 7.039951628898266E-10">0.363</td>
+  <td style='background-color:rgb(255,240,240)' class="sig" title="count: 500; p: 2.0373076156897123E-5">0.404</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(241,241,255)' class="sig" title="count: 310; p: 0.0037029707035981735">0.585</td>
+  <td style='background-color:rgb(235,235,255)' class="sig" title="count: 500; p: 3.236151842716872E-8">0.625</td>
+ </tr>
+ <tr>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,232,232)' class="sig" title="count: 310; p: 1.0289114866143019E-7">0.35</td>
+  <td style='background-color:rgb(255,226,226)' class="sig" title="count: 310; p: 3.87919955983992E-11">0.313</td>
+  <td style='background-color:rgb(255,241,241)' class="sig" title="count: 310; p: 0.0025546722979606054">0.415</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 310; p: 0.8647397156679185">0.494</td>
+ </tr>
+ <tr>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td style='background-color:rgb(255,227,227)' class="sig" title="count: 500; p: 1.2456105540782438E-16">0.317</td>
+  <td style='background-color:rgb(255,227,227)' class="sig" title="count: 500; p: 5.799935568580447E-16">0.321</td>
+  <td style='background-color:rgb(255,235,235)' class="sig" title="count: 500; p: 1.920539129846863E-8">0.375</td>
+  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 310; p: 0.8647397156679185">0.506</td>
+  <td>N/A</td>
+ </tr>
+</table>
+<h2>Game: Connect Four (9x6)</h2>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
+<table>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td>0.616</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>0.607</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>0.454</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.452</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>0.356</td>
+ </tr>
+</table>
+<table>
+ <tr><td></td>
+  <td>(1)</td>
+  <td>(2)</td>
+  <td>(3)</td>
+  <td>(4)</td>
+  <td>(5)</td>
+ </tr>
+ <tr>
+  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(253,253,255)' class="nonsig" title="count: 500; p: 0.6873633080803796">0.511</td>
+  <td style='background-color:rgb(236,236,255)' class="sig" title="count: 500; p: 8.962859009916701E-8">0.621</td>
+  <td style='background-color:rgb(237,237,255)' class="sig" title="count: 310; p: 8.342570746636889E-5">0.615</td>
+  <td style='background-color:rgb(221,221,255)' class="sig" title="count: 500; p: 1.4785997592265016E-22">0.717</td>
+ </tr>
+ <tr>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td style='background-color:rgb(255,253,253)' class="nonsig" title="count: 500; p: 0.6228094319797632">0.489</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 6.597291117377235E-9">0.631</td>
+  <td style='background-color:rgb(232,232,255)' class="sig" title="count: 310; p: 3.594651292329218E-7">0.645</td>
+  <td style='background-color:rgb(228,228,255)' class="sig" title="count: 500; p: 2.604487239019712E-15">0.676</td>
+ </tr>
+ <tr>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td style='background-color:rgb(255,236,236)' class="sig" title="count: 500; p: 5.407956956026203E-8">0.379</td>
+  <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 3.818499871305992E-9">0.369</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 310; p: 0.9547197331420502">0.503</td>
+  <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.584</td>
+ </tr>
+ <tr>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,237,237)' class="sig" title="count: 310; p: 5.13503958593551E-5">0.385</td>
+  <td style='background-color:rgb(255,232,232)' class="sig" title="count: 310; p: 3.594651292329218E-7">0.355</td>
+  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 310; p: 0.9547197331420502">0.497</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(243,243,255)' class="sig" title="count: 310; p: 0.014464487784694492">0.573</td>
+ </tr>
+ <tr>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td style='background-color:rgb(255,221,221)' class="sig" title="count: 500; p: 5.811881246211385E-23">0.283</td>
+  <td style='background-color:rgb(255,228,228)' class="sig" title="count: 500; p: 2.604487239019712E-15">0.324</td>
+  <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.416</td>
+  <td style='background-color:rgb(255,243,243)' class="sig" title="count: 310; p: 0.010477557378092184">0.427</td>
+  <td>N/A</td>
+ </tr>
+</table>
+<h2>Game: Pentago</h2>
+<p>Sample size for each cell is between 310 and 500 matches.</p>
+<table>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.606</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td>0.591</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>0.525</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>0.456</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>0.355</td>
+ </tr>
+</table>
+<table>
+ <tr><td></td>
+  <td>(1)</td>
+  <td>(2)</td>
+  <td>(3)</td>
+  <td>(4)</td>
+  <td>(5)</td>
+ </tr>
+ <tr>
+  <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(254,254,255)' class="nonsig" title="count: 310; p: 1.0000000000000002">0.502</td>
+  <td style='background-color:rgb(247,247,255)' class="nonsig" title="count: 310; p: 0.12501633584465427">0.547</td>
+  <td style='background-color:rgb(228,228,255)' class="sig" title="count: 310; p: 8.326139060297412E-10">0.676</td>
+  <td style='background-color:rgb(224,224,255)' class="sig" title="count: 310; p: 1.428585869942326E-12">0.702</td>
+ </tr>
+ <tr>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
+  <td style='background-color:rgb(255,254,254)' class="nonsig" title="count: 310; p: 0.9547197331420502">0.498</td>
   <td>N/A</td>
   <td style='background-color:rgb(244,244,255)' class="sig" title="count: 500; p: 0.003608285250990301">0.566</td>
   <td style='background-color:rgb(244,244,255)' class="sig" title="count: 500; p: 0.002000307923121255">0.571</td>
   <td style='background-color:rgb(225,225,255)' class="sig" title="count: 500; p: 2.2680335640288934E-18">0.694</td>
  </tr>
  <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td style='background-color:rgb(255,247,247)' class="nonsig" title="count: 310; p: 0.09938375177013092">0.453</td>
   <td style='background-color:rgb(255,244,244)' class="sig" title="count: 500; p: 0.003608285250990301">0.434</td>
   <td>N/A</td>
   <td style='background-color:rgb(247,247,255)' class="sig" title="count: 500; p: 0.044063469578927414">0.546</td>
   <td style='background-color:rgb(233,233,255)' class="sig" title="count: 500; p: 7.039951628898266E-10">0.639</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td style='background-color:rgb(255,228,228)' class="sig" title="count: 310; p: 3.953272583111222E-10">0.324</td>
   <td style='background-color:rgb(255,244,244)' class="sig" title="count: 500; p: 0.0014724575655075131">0.429</td>
   <td style='background-color:rgb(255,247,247)' class="sig" title="count: 500; p: 0.044063469578927414">0.454</td>
   <td>N/A</td>
   <td style='background-color:rgb(244,244,255)' class="sig" title="count: 500; p: 0.003608285250990301">0.567</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td style='background-color:rgb(255,224,224)' class="sig" title="count: 310; p: 6.028134870801828E-13">0.298</td>
   <td style='background-color:rgb(255,225,225)' class="sig" title="count: 500; p: 2.2680335640288934E-18">0.306</td>
   <td style='background-color:rgb(255,233,233)' class="sig" title="count: 500; p: 3.9396510362927854E-10">0.361</td>
   <td style='background-color:rgb(255,244,244)' class="sig" title="count: 500; p: 0.0026967771449727188">0.433</td>
@@ -504,11 +657,15 @@
  </tr>
 </table>
 <h2>Game: Reversi</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 308 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.599</td>
+  <td>0.58</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.527</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
@@ -516,11 +673,11 @@
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.489</td>
+  <td>0.486</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.386</td>
+  <td>0.39</td>
  </tr>
 </table>
 <table>
@@ -529,54 +686,71 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
+  <td style='background-color:rgb(255,252,252)' class="nonsig" title="count: 308; p: 0.6081474248261904">0.484</td>
   <td style='background-color:rgb(248,248,255)' class="nonsig" title="count: 500; p: 0.06660966918457276">0.543</td>
   <td style='background-color:rgb(241,241,255)' class="sig" title="count: 500; p: 1.3900789185324703E-4">0.587</td>
   <td style='background-color:rgb(229,229,255)' class="sig" title="count: 500; p: 4.715601587522412E-14">0.668</td>
  </tr>
  <tr>
-  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
+  <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(252,252,255)' class="nonsig" title="count: 308; p: 0.6081474248261904">0.516</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(255,250,250)' class="nonsig" title="count: 308; p: 0.33272104531876845">0.471</td>
+  <td style='background-color:rgb(250,250,255)' class="nonsig" title="count: 308; p: 0.33272104531876845">0.529</td>
+  <td style='background-color:rgb(241,241,255)' class="sig" title="count: 308; p: 0.00168095135323887">0.591</td>
+ </tr>
+ <tr>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,248,248)' class="nonsig" title="count: 500; p: 0.0543690179016675">0.457</td>
+  <td style='background-color:rgb(250,250,255)' class="nonsig" title="count: 308; p: 0.33272104531876845">0.529</td>
   <td>N/A</td>
   <td style='background-color:rgb(249,249,255)' class="nonsig" title="count: 500; p: 0.16557141780958662">0.533</td>
   <td style='background-color:rgb(241,241,255)' class="sig" title="count: 500; p: 1.3900789185324703E-4">0.587</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,241,241)' class="sig" title="count: 500; p: 9.6181629831497E-5">0.413</td>
+  <td style='background-color:rgb(255,250,250)' class="nonsig" title="count: 308; p: 0.33272104531876845">0.471</td>
   <td style='background-color:rgb(255,249,249)' class="nonsig" title="count: 500; p: 0.1399185255629735">0.467</td>
   <td>N/A</td>
   <td style='background-color:rgb(241,241,255)' class="sig" title="count: 500; p: 9.6181629831497E-5">0.588</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,229,229)' class="sig" title="count: 500; p: 4.715601587522412E-14">0.332</td>
+  <td style='background-color:rgb(255,241,241)' class="sig" title="count: 308; p: 0.00168095135323887">0.409</td>
   <td style='background-color:rgb(255,241,241)' class="sig" title="count: 500; p: 9.6181629831497E-5">0.413</td>
   <td style='background-color:rgb(255,241,241)' class="sig" title="count: 500; p: 9.6181629831497E-5">0.412</td>
   <td>N/A</td>
  </tr>
 </table>
 <h2>Game: Cephalopod (3x3)</h2>
-<p>Sample size for each cell is 500 matches.</p>
+<p>Sample size for each cell is between 308 and 500 matches.</p>
 <table>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
-  <td>0.599</td>
+  <td>0.604</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
-  <td>0.565</td>
+  <td>0.564</td>
+ </tr>
+ <tr>
+  <td>UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td>0.494</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
-  <td>0.469</td>
+  <td>0.465</td>
  </tr>
  <tr>
   <td>UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
-  <td>0.368</td>
+  <td>0.372</td>
  </tr>
 </table>
 <table>
@@ -585,11 +759,13 @@
   <td>(2)</td>
   <td>(3)</td>
   <td>(4)</td>
+  <td>(5)</td>
  </tr>
  <tr>
   <td>(1) UCTOneNodeExpansion:iterationCount=200:c_p=0.353553</td>
   <td>N/A</td>
   <td style='background-color:rgb(251,251,255)' class="nonsig" title="count: 500; p: 0.34766417931301413">0.522</td>
+  <td style='background-color:rgb(235,235,255)' class="sig" title="count: 308; p: 6.025842278368585E-6">0.63</td>
   <td style='background-color:rgb(239,239,255)' class="sig" title="count: 500; p: 3.799390391934505E-6">0.604</td>
   <td style='background-color:rgb(228,228,255)' class="sig" title="count: 500; p: 2.3168482112990333E-14">0.67</td>
  </tr>
@@ -597,20 +773,31 @@
   <td>(2) UCTOneNodeExpansion:iterationCount=200:c_p=0.707107</td>
   <td style='background-color:rgb(255,251,251)' class="nonsig" title="count: 500; p: 0.34766417931301413">0.478</td>
   <td>N/A</td>
+  <td style='background-color:rgb(245,245,255)' class="sig" title="count: 308; p: 0.03483732324046674">0.562</td>
   <td style='background-color:rgb(242,242,255)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.584</td>
   <td style='background-color:rgb(234,234,255)' class="sig" title="count: 500; p: 3.818499871305992E-9">0.632</td>
  </tr>
  <tr>
-  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
+  <td>(3) UCTOneNodeExpansion:iterationCount=200:c_p=0.176777</td>
+  <td style='background-color:rgb(255,235,235)' class="sig" title="count: 308; p: 6.025842278368585E-6">0.37</td>
+  <td style='background-color:rgb(255,245,245)' class="sig" title="count: 308; p: 0.03483732324046674">0.438</td>
+  <td>N/A</td>
+  <td style='background-color:rgb(246,246,255)' class="nonsig" title="count: 308; p: 0.05988446907012224">0.555</td>
+  <td style='background-color:rgb(238,238,255)' class="sig" title="count: 308; p: 1.271337189922428E-4">0.61</td>
+ </tr>
+ <tr>
+  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=1.414214</td>
   <td style='background-color:rgb(255,239,239)' class="sig" title="count: 500; p: 3.799390391934505E-6">0.396</td>
   <td style='background-color:rgb(255,242,242)' class="sig" title="count: 500; p: 1.9933527056657758E-4">0.416</td>
+  <td style='background-color:rgb(255,246,246)' class="nonsig" title="count: 308; p: 0.05988446907012224">0.445</td>
   <td>N/A</td>
   <td style='background-color:rgb(240,240,255)' class="sig" title="count: 500; p: 3.038953607139337E-5">0.594</td>
  </tr>
  <tr>
-  <td>(4) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
+  <td>(5) UCTOneNodeExpansion:iterationCount=200:c_p=2.828427</td>
   <td style='background-color:rgb(255,228,228)' class="sig" title="count: 500; p: 2.3168482112990333E-14">0.33</td>
   <td style='background-color:rgb(255,234,234)' class="sig" title="count: 500; p: 3.818499871305992E-9">0.368</td>
+  <td style='background-color:rgb(255,238,238)' class="sig" title="count: 308; p: 1.271337189922428E-4">0.39</td>
   <td style='background-color:rgb(255,240,240)' class="sig" title="count: 500; p: 3.038953607139337E-5">0.406</td>
   <td>N/A</td>
  </tr>
