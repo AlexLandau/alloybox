@@ -4,7 +4,7 @@ set -e
 
 ./checkEnvironmentVariables.sh
 
-(cd ../gdl-perf/ && rm -rf analyses/ && ./gradlew perfAnalysis)
+(cd ../gdl-perf/ && rm -rf analyses/ && ./gradlew perfAnalysis --no-daemon)
 rm -rf docs/analyses
 cp -r ../gdl-perf/analyses docs/
 
@@ -13,7 +13,7 @@ cp -r ../gdl-perf/analyses docs/
 # cp ../alloy/Alloy/abfResultCharts.html docs/
 # cp -r ../alloy/Alloy/uctViz docs/
 
-(cd ../game-ai-research && ./gradlew writeReports)
+(cd ../game-ai-research && ./gradlew writeReports --no-daemon)
 cp -r ../game-ai-research/reports docs/
 
 git add docs/
