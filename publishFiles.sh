@@ -4,9 +4,9 @@ set -e
 
 ./checkEnvironmentVariables.sh
 
-(cd ../gdl-perf/ && rm -rf analyses/ && ./gradlew perfAnalysis --no-daemon)
-rm -rf docs/analyses
-cp -r ../gdl-perf/analyses docs/
+#(cd ../gdl-perf/ && rm -rf analyses/ && ./gradlew perfAnalysis --no-daemon)
+#rm -rf docs/analyses
+#cp -r ../gdl-perf/analyses docs/
 
 # (cd ../alloy && ./gradlew :Alloy:uctCharts)
 # (cd ../alloy && ./gradlew :Alloy:uctCharts2)
